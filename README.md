@@ -10,7 +10,7 @@ To contribute to this project, follow these simple steps:
 2. Clone the forked repository to your local machine.
 3. Make your modifications or add new features.
 4. Commit your changes and push them to your fork.
-5. Submit a pull request to the main repository.
+5. Submit a pull request to the main repository as you want.
 
 ## Files and Structure
 
