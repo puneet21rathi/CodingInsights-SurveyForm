@@ -1,6 +1,6 @@
 # Navigating the Coding Landscape: Student Insights
 
-Welcome to the "Navigating the Coding Landscape: Student Insights" project! This survey form is designed to gather valuable information about the coding experiences, preferences, and challenges faced by students. Your contributions will help shape the future of coding education.
+Welcome to the "Navigating the Coding Landscape: Student Insights" project! This survey form is designed to gather valuable information about the coding experiences, preferences, and challenges faced by students. Your contributions will help shape the future of coding education among students!
 
 ## Getting Started
 
