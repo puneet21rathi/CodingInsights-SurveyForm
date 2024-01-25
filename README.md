@@ -16,15 +16,8 @@ To contribute to this project, follow these simple steps:
 
 - `index.html`: The main HTML file containing the survey form structure.
 - `styles.css`: Stylesheet for enhancing the visual appeal and user experience.
-- `submit_survey.php`: PHP script for processing the submitted survey data.
+- `submit_survey.php`: PHP script for processing the submitted survey date.
 
-## Contributing
-
-Your contributions are highly encouraged! Whether it's improving the survey questions, enhancing the styling, or adding new features, every contribution is valuable. Please review the [Contribution Guidelines](CONTRIBUTING.md) for more details.
-
-## Issues and Feedback
-
-If you encounter any issues, have suggestions, or want to provide feedback, please open an [issue](https://github.com/yourusername/your-repo/issues). We appreciate your input!
 
 **Note: This project does not include a specific license. All rights are reserved.**
 
