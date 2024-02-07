@@ -9,27 +9,19 @@
 <body>
 
 <h1 id="title">Navigating the Coding Landscape: Student Insights</h1>
-
-<!-- Description Section -->
 <p id="description">Share your insights to help us understand how you navigate the coding landscape as a student. Your experiences and preferences are valuable in shaping the future of coding education among various students!</p>
-
-<!-- Survey Form -->
+    
 <form action="submit_survey.php" method="post" id="survey-form">
 
-
-<!-- Question 1: Name Input -->
 <label for="name" id="name-label">1. What is your full name?</label>
 <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
-<!-- Question 2: Email Input -->
 <label for="email" id="email-label">2. What is your email address? (e.g., yourname@example.com)</label>
 <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-
-<!-- Question 3: Age Input -->
+    
 <label for="number" id="number-label">3. How old are you?</label>
 <input type="number" id="number" name="number" placeholder="Your age" min="15" max="30" required>
 
-<!-- Question 4: Educational Background Radio Buttons -->
 <label id="education-label">4. What is your current educational background?</label>
 <div class="radio-group">
     <input type="radio" id="high-school" name="educational_background" value="High School" required>
@@ -47,12 +39,9 @@
     <option value="University Courses">University Courses</option>
 </select>
 
-
-<!-- Question 6: Coding Experience Text Input -->
 <label for="coding-experience">6. Describe your coding experience (if any):</label>
 <textarea id="coding-experience" name="coding_experience" rows="4" placeholder="Share your coding experience"></textarea>
 
-<!-- Question 7: Programming Languages Checkbox -->
 <label>7. Which programming languages are you familiar with? (Check all that apply)</label>
 <div class="checkbox-group">
     <input type="checkbox" id="javascript" name="programming_languages[]" value="JavaScript">
@@ -70,18 +59,15 @@
     <label for="cpp">C++</label>
     <input type="checkbox" id="other" name="programming_languages[]" value="Other">
     <label for="other">Other</label>
-    <!-- Add more checkboxes as needed -->
-</div>
 
-<!-- Question 8: Proficiency Level Input -->
+</div>
+    
 <label for="proficiency-level">8. How would you describe your proficiency level in coding?</label>
 <input type="text" id="proficiency-level" name="proficiency_level" placeholder="Enter your proficiency level">
 
-<!-- Question 9: Coding Projects Textarea -->
 <label for="coding-projects">9. Describe any coding projects you have worked on:</label>
 <textarea id="coding-projects" name="coding_projects" rows="4" placeholder="Share your coding projects"></textarea>
-
-<!-- Question 10: Preferred Coding Platforms -->
+    
 <label for="coding-platforms">10. What are your preferred coding platforms? (Check all that apply)</label>
 <div class="checkbox-group">
     <input type="checkbox" id="github" name="coding_platforms[]" value="GitHub">
@@ -94,19 +80,14 @@
     <label for="sourceforge">SourceForge</label>
     <input type="checkbox" id="azure-devops" name="coding_platforms[]" value="Azure DevOps">
     <label for="azure-devops">Azure DevOps</label>
-    <!-- Add more checkboxes as needed -->
 </div>
 
-
-<!-- Question 11: Challenges Textarea -->
 <label for="challenges">11. What challenges have you faced while learning to code?</label>
 <textarea id="challenges" name="challenges" rows="4" placeholder="Describe any challenges you faced"></textarea>
 
-<!-- Question 12: Career Goals Textarea -->
 <label for="career-goals">12. What are your career goals in the IT and coding sector?</label>
 <textarea id="career-goals" name="career_goals" rows="4" placeholder="Share your career aspirations"></textarea>
 
-<!-- Question 13: Operating System Experience -->
 <label id="operating-system-label">13. What operating systems do you have experience with? (Check all that apply)</label>
 <div class="checkbox-group">
     <input type="checkbox" id="windows" name="operating_systems[]" value="Windows">
@@ -115,18 +96,14 @@
     <label for="mac">MacOS</label>
     <input type="checkbox" id="linux" name="operating_systems[]" value="Linux">
     <label for="linux">Linux</label>
-    <!-- Add more checkboxes as needed -->
 </div>
 
-<!-- Question 14: Coding Community Input -->
 <label for="coding-community">14. Are you part of any coding communities or forums? If yes, please specify:</label>
 <input type="text" id="coding-community" name="coding_community" placeholder="e.g., GitHub, Stack Overflow">
 
-<!-- Question 15: Recommendations Textarea -->
 <label for="recommendations">15. Any recommendations or advice for fellow students interested in coding?</label>
 <textarea id="recommendations" name="recommendations" rows="4" placeholder="Share your advice"></textarea>
-
-<!-- Submit Button -->
+    
 <input type="submit" id="submit" value="Submit">
 
 </form>
